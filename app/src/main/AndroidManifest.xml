@@ -12,7 +12,10 @@
         android:theme="@style/Theme.Lovelendar"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".profilePage"
+            android:exported="false" />
+        <activity
+            android:name=".logInPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
